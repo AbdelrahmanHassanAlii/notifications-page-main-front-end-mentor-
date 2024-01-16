@@ -58,6 +58,58 @@ p{
 /*end card header*/
 
 
+.boxes .box{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.boxes .box .left img{
+    height: 45px;
+    margin-right: 10px;
+}
+
+.boxes .box .right .name{
+    color: var(--very-dark-blue);
+    font-weight: bold;
+}
+
+.boxes .box .right .post-name{
+    color: var(--dark-grayish-blue);
+    font-weight: bold;
+}
+
+.boxes .box .right .group-name{
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.boxes .box .right p span.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--red);
+    margin-left: 5px;
+}
+
+.boxes .box .right .time{
+    margin-top: 5px;
+}
+
+.boxes .box.un-readed{
+    background-color: var(--very-light-grayish-blue);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
